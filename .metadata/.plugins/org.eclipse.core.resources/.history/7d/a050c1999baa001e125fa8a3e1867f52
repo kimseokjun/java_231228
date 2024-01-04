@@ -1,0 +1,15 @@
+package c_Chapter02;
+
+// switch 조건문
+// : 특정 변수의 값에 따라 실행할 코드 블록 범위를 결정
+
+
+public class B_switch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+}

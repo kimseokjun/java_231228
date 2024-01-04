@@ -1,0 +1,31 @@
+package b_Chapter01;
+
+// 데이터 : 세계에 존재하는 정보를 총칭(컴퓨터의 저장 장치에 기록하는 정보)
+// 컴퓨터는 기계어를 통해 데이터를 인식하고 처리
+
+// 변수 : 데이터를 저장할 수 있는 메모리 공간
+
+// 변수 선언
+// 메모리 공간을 생성
+
+// 변수 선언 방법
+// : 데이터타입 변수명;
+
+
+
+public class A_Variable {
+
+	public static void main(String[] args) {
+
+		int a = 101;
+		double b = 10.1;
+		char c = 'a';
+		
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+
+	}
+
+}
