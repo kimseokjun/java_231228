@@ -2,8 +2,9 @@
 public class Git {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		//git config -- global user.name 이름
+		//git config -- global user.email 이메일
 	}
 
 }
