@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;c_Chapter02.adfdfadsfadsf&apos; to &apos;C_For&apos;&#x0D;&#x0A;- Original project: &apos;JAVA_bt1228&apos;&#x0D;&#x0A;- Original element: &apos;c_Chapter02.adfdfadsfadsf&apos;&#x0D;&#x0A;- Renamed element: &apos;c_Chapter02.C_For&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;adfdfadsfadsf&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;c_Chapter02{adfdfadsfadsf.java[adfdfadsfadsf" matchStrategy="1" name="C_For" qualified="false" references="true" similarDeclarations="false" stamp="1704416314658" textual="false" version="1.0"/>
+</session>

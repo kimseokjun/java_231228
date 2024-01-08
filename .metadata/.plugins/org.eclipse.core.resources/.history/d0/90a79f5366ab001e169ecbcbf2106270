@@ -1,0 +1,27 @@
+package c_Chapter02;
+
+
+// 반복문(Loop)
+// 어떤 작업을 반복적으로 실행하고 싶을때 사용
+
+// For, while, do-while
+
+
+public class C_For {
+
+	public static void main(String[] args) {
+		
+		// for 문
+		// 특정 조건이 만족될때까지 코드블록을 반복 실행
+		// 규칙이 있는 작업을 반복하는 제어문
+		// 반복 횟수가 정해져 있을 때 사용
+		
+		// 기본 구조
+		for(int i = 0; i<10; i++)
+		{
+			System.out.println(i);
+		}
+		
+	}
+
+}
