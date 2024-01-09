@@ -1,0 +1,17 @@
+package d_Chapter03;
+
+import java.util.ArrayList;
+
+public class G_ArrayList02 {
+	public static void main(String[] args) {
+		
+		ArrayList<String>  items = new ArrayList<>();
+	
+		items.add("사과");
+		items.add("책");
+		items.add("연필");
+		items.add("시계");
+		items.add("컵");
+	
+	}
+}

@@ -1,0 +1,25 @@
+package d_Chapter03;
+
+import java.util.ArrayList;
+import java.util.Random;
+
+public class G_ArrayList02 {
+	public static void main(String[] args) {
+		
+		ArrayList<String>  items = new ArrayList<>();
+	
+		items.add("사과");
+		items.add("책");
+		items.add("연필");
+		items.add("시계");
+		items.add("컵");
+	
+		Random rd = new Random();
+		
+		//0번째 인덱스 부터 마지막 요소의 인덱스 까지의 수 중에서 무작위 수 생성
+		
+		int randindex = rd.nextInt(items.size());
+		
+		System.out.println(items.get(randindex));
+	}
+}
