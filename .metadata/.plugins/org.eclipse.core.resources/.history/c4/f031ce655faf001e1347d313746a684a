@@ -1,0 +1,28 @@
+package e_Chapter04;
+
+class Book{
+	// Book 클래스의 필드
+	String title=null;
+	String author=null;
+	
+	// Book 클래스의 생성자 = 객체 생성 시 필드 기본 값 설정
+	Book(String title, String author){
+		this.title = title;
+		this.author = author;
+	}
+	// Book 클래스의 메서드
+	void displayInfo()
+	{
+		System.out.println("Title: " + title + " Author: " + author);
+	}
+	
+}
+
+public class Object04 {
+
+	public static void main(String[] args) {
+		Book book = new Book("어린왕자","생택쥐페리");
+		book.displayInfo();
+	}
+
+}

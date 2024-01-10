@@ -1,0 +1,32 @@
+package e_Chapter04;
+
+// 클래스의 구조
+// 필드, 메서드, 생성자
+
+class Car{
+	// 클래스의 속성
+	String model = null;
+	int year = 0;
+	// 클래스의 행동(메서드)
+	// 클래스 내에서 정의도니 함수. 객체의 행동을 표현 
+	// 클래스의 데이터를 사용하여 특정 작업을 수행하거나, 값을 반환할수 있다.
+	
+	public void disPlayInfo() {
+		System.out.println("Model : "+ model + ", Year : " + year);
+	}
+	
+	public void setModel(String model) {
+		this.model = model;
+	}
+	
+}
+public class Object03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Car car = new Car();
+		car.setModel(그렌저);
+		car.disPlayInfo();
+	}
+
+}
