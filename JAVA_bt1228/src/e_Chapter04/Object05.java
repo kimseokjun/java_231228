@@ -1,7 +1,5 @@
 package e_Chapter04;
 
-
-
 class GameCharacter{
 	String name = null;
 	int level = 0;

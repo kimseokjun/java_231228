@@ -1,0 +1,33 @@
+package f_Chapter05;
+
+// 객체 지향 프로그래밍의 변수
+
+// 객체의 속성을 변수로 표현
+// 객체의 상태를 저장
+
+// 필드, 지역 변수 차이
+// 1. 필드 : 객체의 지속적인 상태를 저장하는 클래스 내부의 변수
+// 2. 지역변수 : 메서드가 실행되는 동안에만 존재하는 일시적인 변수
+
+class Car{
+	//필드
+	String color;
+	int speed;
+	String brand;
+	
+	// 속도를 증가시키는 메서드
+	void accelerate(int increment) {
+		speed += increment;
+	}
+	
+}
+public class Object01 {
+	public static void main(String[] args) {
+	Car car1 = new Car();
+	car1.color = "white";
+	car1.speed = 150;
+	car1.brand = "Hyundai";
+	
+	
+}
+}
