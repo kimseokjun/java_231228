@@ -35,12 +35,8 @@ class Calculator{
 	int addNumbers(int A, int B)// 매개변수 A,B
 	{
 		return A+B;//return 키워드를 사용하여 지정된 타입의 데이터를 반환
-	}
-	
-	
+	}	
 }
-
-
 
 public class Object04 {
 

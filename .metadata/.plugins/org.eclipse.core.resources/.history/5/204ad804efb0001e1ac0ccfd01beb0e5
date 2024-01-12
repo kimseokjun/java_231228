@@ -1,0 +1,33 @@
+package g_Chapter06;
+
+
+// 사칙연산 클래스
+
+class MyMath{
+	int add(int a, int b) { 
+		return a+b;
+	}
+	int sub(int a, int b) { 
+		return a-b;
+	}
+	int muti(int a, int b) { 
+		return a*b;
+	}
+	double div(int a, int b) { 
+		return a/b;
+	}
+}
+public class Method03 {
+
+	public static void main(String[] args) {
+		
+		MyMath mm = new MyMath();
+		
+		int value = mm.add(10, 20);
+		
+		System.out.println(value);
+		
+
+	}
+
+}
