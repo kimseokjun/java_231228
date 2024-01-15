@@ -62,6 +62,9 @@ class MyMath {
 	// if - else문
 	// 조건에 따른 코드 실행 여부를 제어
 	
+	
+	// 삼항 연산자
+	// 조건 ? 조건이 참인 경우 : 조건이 거짓인 경우
 	int min(int a, int b) {
 		return a > b ? b: a;
 	}
@@ -89,6 +92,7 @@ public class Method03 {
 		System.out.println(value3);
 		System.out.println(value4);
 
+		
 	}
 
 }

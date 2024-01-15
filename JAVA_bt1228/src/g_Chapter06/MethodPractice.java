@@ -17,14 +17,40 @@ package g_Chapter06;
 // 
 
 class BaseballPlayer{
-
+	
+	String name;
+	double battingAverage;
+	int homeRuns;
+	static int playerCount =0;
+	
+	BaseballPlayer(String name, double battingAverage, int homeRuns){
+		this.name = name;
+		this.battingAverage = battingAverage;
+		this.homeRuns = homeRuns;
+		playerCount++;
+	}
+	
+	void updateStats(double newBattingAverage, int newHomeRuns)
+	{
+		this.battingAverage = newBattingAverage;
+		this.homeRuns = newHomeRuns;
+	}
+	
 }
 public class MethodPractice {
 
 	public static void main(String[] args) {
 		// BaseballPlayer 클래스로 야구선수 3명의 객체 생성
 		// 총 생성된 선수의 수를 출력
+			BaseballPlayer player1 = new BaseballPlayer("KIM",2.5,3);
+			BaseballPlayer player2= new BaseballPlayer("PARK",3,10);
+			BaseballPlayer player3 = new BaseballPlayer("LEE",1.6,0);
 			
+			player1.updateStats(3, 7);
+			
+			System.out.println(player1.name+" " + player1.battingAverage +" " + player1.homeRuns);
+			
+			System.out.println("생성된 선수 : " + BaseballPlayer.playerCount);
 	}
 
 }
