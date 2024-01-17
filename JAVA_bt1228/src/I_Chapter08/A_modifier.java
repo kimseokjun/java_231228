@@ -1,4 +1,4 @@
-package I_Chapter08;
+package i_Chapter08;
 
 import parentPackage.ParentClass;
 // 접근 제어자

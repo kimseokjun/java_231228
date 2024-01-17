@@ -1,0 +1,10 @@
+package I_Chapter08;
+
+public class AccessExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

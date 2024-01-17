@@ -10,6 +10,6 @@
     <fullyQualifiedTypeName name="e_Chapter04.GameCharacter"/>
     <fullyQualifiedTypeName name="g_Chapter06.Calculator"/>
     <fullyQualifiedTypeName name="g_Chapter06.Restaurant"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="parentPackage.ParentClass"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

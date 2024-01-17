@@ -1,0 +1,14 @@
+package i_Chapter08;
+
+
+// 캡슐화
+// : 객체 지향 프로그래밍에서 데이터와 해당 데이터를 처리하는 함수를 하나로 묶는 것
+// - 객체 내부의 구현을 숨기고 외부에서는 제공된 메서드를 통해서만 접근할 수 있도록 함
+// - 데이터 보호, 유지보수성 향상, 사용의 편의성 증대
+
+
+public class B_Encapsulation {
+	public static void main(String[] args) {
+		
+	}
+}
