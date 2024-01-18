@@ -1,0 +1,10 @@
+package k_Chapter10;
+
+abstract class MobileApp{
+	
+}
+public class Z_Practice01 {
+		public static void main(String[] args) {
+			
+		}
+}

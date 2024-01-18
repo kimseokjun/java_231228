@@ -1,0 +1,23 @@
+package k_Chapter10;
+
+//인터페이스 멤버 변수 정의
+// : public, static ,final 특성을 가짐
+
+interface ExampleInterface{
+	int EXAMPLE_VARIABLE = 10;	// public, static , final
+	
+	
+	
+}
+
+class EXampleClass implements ExampleInterface{
+	void printVar(){
+		System.out.println(EXAMPLE_VARIABLE);
+	}
+}
+
+public class D_Interface03 {
+		public static void main(String[] args) {
+			
+		}
+}

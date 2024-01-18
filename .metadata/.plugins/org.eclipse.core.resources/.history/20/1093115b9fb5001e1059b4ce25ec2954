@@ -1,0 +1,16 @@
+package k_Chapter10;
+
+// ! 인터페이스
+// : 객체가 어떤 방식으로 동작해야 하는지를 정의하는 추상 타입
+// : 추상 메서드와 상수만으로 구성된 특수한 클래스
+// - 모든 메서드가 추상 메서드인 클래스와 유사
+
+
+
+
+
+public class B_Interface {
+	public static void main(String[] args) {
+		
+	}
+}

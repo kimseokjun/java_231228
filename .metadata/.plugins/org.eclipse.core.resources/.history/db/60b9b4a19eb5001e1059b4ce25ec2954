@@ -1,0 +1,10 @@
+package k_Chapter10;
+
+// ! 인터페이스
+
+
+public class B_Interface {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package k_Chapter10;
+
+//인터페이스 멤버 변수 정의
+
+
+public class D_Interface03 {
+		public static void main(String[] args) {
+			
+		}
+}

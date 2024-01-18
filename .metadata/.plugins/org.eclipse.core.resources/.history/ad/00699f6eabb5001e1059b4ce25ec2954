@@ -1,0 +1,28 @@
+package k_Chapter10;
+
+abstract class MobileApp{
+	abstract void execute();
+	void appInfo() {
+		System.out.println("앱 설명");
+	}
+}
+
+class GameApp extends MobileApp{
+	void execute() {
+		System.out.println("실행");
+	}
+	void appInfo() {
+		System.out.println("앱 설명 재정의");
+	}
+}
+
+class SocialApp extends MobileApp{
+	void execute() {
+		System.out.println("실행");
+	}
+}
+public class Z_Practice01 {
+		public static void main(String[] args) {
+			
+		}
+}
