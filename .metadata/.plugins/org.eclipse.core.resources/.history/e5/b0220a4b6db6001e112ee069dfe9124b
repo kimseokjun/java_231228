@@ -1,0 +1,9 @@
+package l_Chapter11;
+
+
+// 지역 내부 클래스(로컬 클래스)
+public class D_LocalClass {
+	public static void main(String[] args) {
+		
+	}
+}
