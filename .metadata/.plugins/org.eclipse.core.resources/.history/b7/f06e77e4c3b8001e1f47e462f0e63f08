@@ -1,0 +1,60 @@
+package m_Chapter;
+
+public class A_Exception {
+	public static void main(String[] args) throws Exception {
+		
+		try {
+			int division = 10/0;
+		}catch(Exception e) {
+			System.out.println("0으로 나눌 수 없습니다.");
+		}
+		
+		try {
+			String text = null;
+			// null 계산은 예의 - NullPointerException  발생
+			System.out.println(text.length());
+			int division = 10/0; 
+			//정수를 0으로 나눌수 없음
+			
+		}catch(NullPointerException e) {
+				System.out.println("널 참조발생");	
+		}catch(ArithmeticException e) {
+			System.out.println("산술적 예외 발생");
+		}
+		
+		
+		// finally 블럭
+		// : try-catch 구조의 일부( 선택사항)
+		// : 예외 발생 여부와 관계없이 항상 실행되는 블록
+		try {
+			int [] numbers = new int [5];
+			numbers[10]= 50;
+			
+		}catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("배열 인덱스 초과 오류 발생");
+		}finally {
+			System.out.println("finally 블록 실행");
+		}
+		//throw 블록
+		// 예외를 직접 발생시키는데 사용
+		// 특정 조건에서 예외를 발생시키고 싶을 때 사용 가능
+		// 주로 조건문과 같이 사용
+		// 예) 나이에 음수 X - 나이값에 음수가 담기는 경우 예외 발생
+		
+		//기본 형태
+		//throw new 예외 타입("예외처리구문")
+		int age = -10;
+		
+		try {
+			
+			if( age < 0)
+			{
+//			throw new ExceptionType("Exception message");
+				throw new Exception("나이는 음수가 될 수 없습니다.");
+			}
+		}catch( Exception e) {
+			System.out.println("양수를 입력해주세요");
+		}
+		
+	}
+}

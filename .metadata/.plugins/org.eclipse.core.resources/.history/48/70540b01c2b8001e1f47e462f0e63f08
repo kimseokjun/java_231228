@@ -1,0 +1,21 @@
+package m_Chapter;
+
+public class A_Exception {
+	public static void main(String[] args) {
+		
+		try {
+			int division = 10/0;
+		}catch(Exception e) {
+			System.out.println("0으로 나눌 수 없습니다.");
+		}
+		
+		try {
+			String text = null;
+			// null 계산은 예의 - NullPointerException  발생
+			System.out.println(text.length());
+			int division = 10/0; 
+			//정수를 0ㅇ으로 나눌수 없음
+			
+		}
+	}
+}
