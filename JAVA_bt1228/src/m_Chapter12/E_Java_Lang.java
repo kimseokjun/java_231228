@@ -69,7 +69,20 @@ public class E_Java_Lang {
 		System.out.println(Math.random()*10);
 		System.out.println(Math.pow(2,4));
 		
-		String a= "012345";
-		System.out.println(a.charAt(3));
+		String hello = "Hello, World!";
+		// 길이 13
+		// >> 문자열의 길이는 문자 뿐만 아니라 기호와 띄어쓰기도 포함
+		int length = hello.length();
+		System.out.println(length);
+		
+		// equals 메서드는 boolean 값을 반환
+		boolean isEqual = hello.equals("Hello, World!");
+		System.out.println(isEqual);
+		String sub = hello.substring(7,12);
+		System.out.println(sub);
+		
+		char ch = hello.charAt(1);
+		int index = hello.indexOf("World");
+		System.out.println(index);
 		}
 }

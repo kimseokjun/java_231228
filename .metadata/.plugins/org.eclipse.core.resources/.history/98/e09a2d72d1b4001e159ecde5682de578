@@ -1,9 +1,0 @@
-package parentPackage;
-
-import I_Chapter08.AccessExample;
-
-public class OtherClass {
-	public static void main(String[] args) {
-		
-	}
-}

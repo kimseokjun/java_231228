@@ -1,0 +1,11 @@
+package n_Chapter13;
+
+// List 인터페이스
+// : 데이터를 순차적으로 저장하고 접근하는데 사용하는 메서드를 정의
+// : 데이터의 중복 저장을 허용, 저장된 순서에 따라 데이터를 관리
+//
+public class B_List {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,19 @@
+package n_Chapter13;
+
+
+// 자바 컬렉션 프레임워크
+// : 자바에서 데이터를 저장하고 처리하는 자료구조의 표준화된 설계
+
+// 컬렉션 프레임워크의 주요 인터페이스
+// Collection : List , Set 등의 상위 인터페이스, 데이터 집합을 다룸
+// List : 데이터의 순서를 유지, 중복 허용(ArrayList, LinkedList)
+// Set : 데이터의 순서를 유지 X, 중복 허용X (HashSet, TreeSet 등)
+// Map : 키 - 값 쌍으로 이루어진 데이털르 다룸, 키는 중복 허용 X(Hash map, TreeMap등)
+
+public class A_Collection {
+
+	//     효과적인 컬렉션 프레임워크 사용법
+	
+	// 1. 데이터의 특성에 맞는 적절한 컬렉션 클래스 선택.
+	
+}

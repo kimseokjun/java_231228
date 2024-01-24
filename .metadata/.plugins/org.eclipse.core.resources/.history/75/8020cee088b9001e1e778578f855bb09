@@ -1,0 +1,24 @@
+package m_Chapter12;
+
+import java.util.Date;
+
+// java.util 패키지
+// : 자바의 표준 라이브러리 중 하나
+//: 데이터의 구조, 시간과 날짜 처리, 무작위 숫자 생성 등의 기능 포함
+
+// : 시간과 날짜 처리하는 클래스
+// Date 클래스
+// : 날짜와 시간을 표현
+// : 현재의 밀리초 단위까지를 반환
+// toString() : 현재 날짜와 시간을 문자열 반환
+// getTime() : 현재의 밀리초 단위를 반환
+
+
+public class F_JAVA_Util {
+
+	public static void main(String[] args) {
+		Date date = new Date();
+		System.out.println("현재 날짜와 시간은 : " + date.toString() );
+	}
+
+}

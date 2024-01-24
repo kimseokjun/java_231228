@@ -1,0 +1,12 @@
+package n_Chapter13;
+
+
+//! ArrayList & Linked 메서드 사용 시 유의사항
+
+// 1. get , remove , set 메서드의 경우
+// 인덱스가 유효한지 확인해야함
+// >> 유효하지 않은 인덱스 사용시 IndexOutof....
+
+public class C_List02 {
+		
+}

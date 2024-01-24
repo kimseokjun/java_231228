@@ -1,0 +1,9 @@
+package n_Chapter13;
+
+
+//! ArrayList & Linked 메서드 사용 시 유의사항
+
+// 1. get , remove , set 메서드의 경우
+public class C_List02 {
+		
+}

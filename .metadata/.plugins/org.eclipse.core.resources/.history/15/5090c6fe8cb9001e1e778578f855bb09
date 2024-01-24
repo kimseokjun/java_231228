@@ -1,0 +1,11 @@
+package n_Chapter13;
+
+
+// 자바 컬렉션 프레임워크
+// : 자바에서 데이터를 저장하고 처리하는 자료구조의 표준화된 설계
+
+// 컬렉션 프레임워크의 주요 인터페이스
+// Collection : 
+public class A_Collection {
+
+}
